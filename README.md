@@ -30,12 +30,19 @@ Print the result for each QUERY.
 
 Constrains
 1 <= T <= 50
+
 1 <= N <= 100
+
 1 <= M <= 1000
+
 1 <= x1 <= x2 <= N
+
 1 <= y1 <= y2 <= N
+
 1 <= z1 <= z2 <= N
+
 1 <= x,y,z <= N
+
 -10 <= W <= 10
 
 Sample Input
