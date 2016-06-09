@@ -8,17 +8,10 @@
         <put-attribute name="body" value="" /> 
         <put-attribute name="footer" value="" />  
     </definition> 
-    <definition name="/index" extends="baseLayout">   
+    <definition name="/cube" extends="baseLayout">   
         <put-attribute name="css" value="" />
-        <put-attribute name="js" value="/WEB-INF/jsp/index/js.jsp" />   
-        <put-attribute name="body" value="/WEB-INF/jsp/index/body.jsp" /> 
+        <put-attribute name="js" value="/WEB-INF/jsp/cube/js.jsp" />   
+        <put-attribute name="body" value="/WEB-INF/jsp/cube/body.jsp" /> 
         <put-attribute name="footer" value="" />     
-    </definition>
-    <definition name="/login" extends="baseLayout">       
-        <put-attribute name="css" value="" />
-        <put-attribute name="js" value="" />   
-        <put-attribute name="body" value="/WEB-INF/jsp/login/body.jsp" /> 
-        <put-attribute name="footer" value="" />     
-    </definition>
-   
+    </definition>   
 </tiles-definitions>

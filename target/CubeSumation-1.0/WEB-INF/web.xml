@@ -29,12 +29,12 @@
     <welcome-file-list>
         <welcome-file>redirect.jsp</welcome-file>
     </welcome-file-list>
-        <!--Configuracion de filtros-->
+    <!--Configuracion de filtros-->
     <filter>
         <filter-name>httpMethodFilter</filter-name>
         <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
     </filter>
-   <filter-mapping>
+    <filter-mapping>
         <filter-name>httpMethodFilter</filter-name>
         <servlet-name>dispatcher</servlet-name>
     </filter-mapping>

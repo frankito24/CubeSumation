@@ -10,6 +10,7 @@ package com.grability.test.cubesumation.to;
  * @author Frank
  */
 public class CoordinateTo {
+
     private int x, y, z;
 
     public CoordinateTo(int x, int y, int z) {
@@ -18,7 +19,6 @@ public class CoordinateTo {
         this.z = z;
     }
 
-    
     public int getX() {
         return x;
     }
@@ -42,6 +42,5 @@ public class CoordinateTo {
     public void setZ(int z) {
         this.z = z;
     }
-    
-    
+
 }
